@@ -1,0 +1,16 @@
+/* Global Styles */
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+}
+
+.alert {
+	/* We add distance only from element: -top */
+	margin-top: 10px;
+}
+
+/* found the element of footer by his uniq id footer */
+#footer{
+	/* To set up the upper line of element: weight of line, type of line, color of line */
+	border-top: 1px solid #dddddd;
+	padding-top: 10px;
+}
